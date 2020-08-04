@@ -33,7 +33,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: "This is help text",
+        message: "Search the place whose weather data you want",
         title: "Help",
         name: "Utkarsh"
     });
